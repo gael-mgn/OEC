@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Observatoire de l'Esprit Critique - Accueil</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+
+<body>
+    <!-- Header avec le menu responsive -->
+    <header class="site-header">
+        <div class="mobile-nav">
+            <img src="images/logo.png" alt="Nom du site">
+            <div class="hamburger" onclick="afficherMessage()">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+        </div>
+        <div class="title">
+            <!--
+                <img src="images/logo.png" alt="Nom du site">
+                -->
+            <div class="text-container">
+                <h1>Observatoire de l'Esprit Critique</h1>
+                <p>
+                    "Explorer, Comprendre, Transmettre l’Esprit Critique dans la Société Contemporaine"
+                </p>
+            </div>
+        </div>
+        <nav class="nav-menu">
+            <ul>
+                <li><a href="#home">Accueil</a></li>
+                <li><a href="#about">Nos actions</a></li>
+                <li><a href="#services">Publications</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <!--
+            <img src="Images/Accueil.jpg" class="bannere" alt="Bannière">
+            -->
+        <section class="full-width-section2">
+            <div class="overlay-container">
+                <div class="overlay">
+                    <h2>Qui sommes-nous ?</h2>
+                    <p>
+                        « L’Observatoire de l’Esprit Critique (OEC) est une association dédiée à l’analyse des mécanismes de l’information, la promotion de la pensée critique, et l’éducation du public sur les enjeux médiatiques actuels. »
+                    </p>
+                    <button class="btn-discover">En savoir plus</button>
+                </div>
+            </div>
+            <img src="Images/Accueil.jpg" alt="Bannière">
+        </section>
+        <div class="container">
+            <section class="articles">
+                <!-- Colonne Articles en Français -->
+                <div class="column">
+                    <div class="title-section">
+                        <h2>À la une</h2>
+                        <a href="articles/articles.html" class="see-all-content">
+                            <span class="text">Voir tous les contenus</span>
+                            <span class="arrow-icon">
+                                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M5 12h14M12 5l7 7-7 7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                                    </svg>
+                                </span>
+                        </a>
+                    </div>
+                    <a href="featured-articccle.html" class="featured-article">
+                        <img src="featured-image.jpg" alt="Article en vedette">
+                        <div class="article-info">
+                            <h3>Titre de l'article en vedette</h3>
+                            <p class="article-description">
+                                Ceci est une courte description de l'article en vedette, qui donne un aperçu du contenu.
+                            </p>
+                            <p class="publication-date">
+                                Publié le 27 octobre 2024
+                            </p>
+                            <span class="arrow-icon">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M5 12h14M12 5l7 7-7 7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                                    </svg>
+                                </span>
+                        </div>
+                    </a>
+                    <section class="articles2">
+                        <div class="column">
+                            <a href="featured-articccle.html" class="featured-article">
+                                <img src="featured-image.jpg" alt="Article en vedette">
+                                <div class="article-info">
+                                    <h3>Titre de l'article 1</h3>
+                                    <p class="article-description">
+                                        Ceci est une courte description de l'article en vedette, qui donne un aperçu du contenu.
+                                    </p>
+                                    <p class="publication-date">
+                                        Publié le 27 octobre 2024
+                                    </p>
+                                    <span class="arrow-icon">
+                                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M5 12h14M12 5l7 7-7 7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                                            </svg>
+                                        </span>
+                                </div>
+                            </a>
+                            <a href="featured-articccle.html" class="featured-article">
+                                <img src="featured-image.jpg" alt="Article en vedette">
+                                <div class="article-info">
+                                    <h3>Titre de l'article 3</h3>
+                                    <p class="article-description">
+                                        Ceci est une courte description de l'article en vedette, qui donne un aperçu du contenu.
+                                    </p>
+                                    <p class="publication-date">
+                                        Publié le 27 octobre 2024
+                                    </p>
+                                    <span class="arrow-icon">
+                                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M5 12h14M12 5l7 7-7 7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                                            </svg>
+                                        </span>
+                                </div>
+                            </a>
+                            <!-- Ajoutez d'autres articles ici -->
+                        </div>
+                        <div class="column">
+                            <a href="featured-articccle.html" class="featured-article">
+                                <div class="article-info">
+                                    <h3>Titre de l'article 2
+                            </h3>
+                                    <p class="article-description">
+                                        Ceci est une courte description de l'article en vedette, qui donne un aperçu du contenu.
+                                    </p>
+                                    <p class="publication-date">
+                                        Publié le 27 octobre 2024
+                                    </p>
+                                    <span class="arrow-icon">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M5 12h14M12 5l7 7-7 7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                                </svg>
+                            </span>
+                                </div>
+                            </a>
+                            <a href="featured-articccle.html" class="featured-article">
+                                <img src="article1.jpg" alt="Article en vedette">
+                                <div class="article-info">
+                                    <h3>Titre de l'article 4</h3>
+                                    <p class="article-description">
+                                        Ceci est une courte description de l'article en vedette, qui donne un aperçu du contenu.
+                                    </p>
+                                    <p class="publication-date">
+                                        Publié le 27 octobre 2024
+                                    </p>
+                                    <span class="arrow-icon">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M5 12h14M12 5l7 7-7 7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                                </svg>
+                            </span>
+                                </div>
+                            </a>
+                        </div>
+                    </section>
+                </div>
+                <!-- Colonne Articles en Anglais avec images -->
+                <div class="column">
+                    <div class="title-section">
+                        <h2>Nos actions</h2>
+                        <a href="#" class="see-all-content">
+                            <span class="text">Voir tous les contenus</span>
+                            <span class="arrow-icon">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M5 12h14M12 5l7 7-7 7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                    </span>
+                        </a>
+                    </div>
+                    <a href="Articles/Sensibilisation/Sensibilisation.html" class="article-horizontal">
+                        <div class="article-info">
+                            <h3>La sensibilisation</h3>
+                            <p class="article-description">
+                                Apprendre à analyser les informations, les images, et les discours pour mieux comprendre les mécanismes médiatiques.
+                            </p>
+                            <p class="publication-date">
+                                Publié le 27 octobre 2024
+                            </p>
+                            <span class="arrow-icon">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M5 12h14M12 5l7 7-7 7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                    </span>
+                        </div>
+                    </a>
+                    <div class="title-section">
+                        <h2>Nos publications</h2>
+                        <a href="#" class="see-all-content">
+                            <span class="text">Voir tous les contenus</span>
+                            <span class="arrow-icon">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M5 12h14M12 5l7 7-7 7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                    </span>
+                        </a>
+                    </div>
+                    <a href="article1.html" class="article-horizontal">
+                        <img src="featured-image.jpg" alt="Action 2">
+                        <div class="article-info">
+                            <h3>Titre de l'action 1</h3>
+                            <p class="article-description">
+                                Description de l'action 1, expliquant les objectifs et les résultats attendus.
+                            </p>
+                            <p class="publication-date">
+                                Publié le 27 octobre 2024
+                            </p>
+                            <span class="arrow-icon">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M5 12h14M12 5l7 7-7 7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                    </span>
+                        </div>
+                    </a>
+                    <a href="article1.html" class="article-horizontal">
+                        <div class="article-info">
+                            <h3>Titre de l'action 1</h3>
+                            <p class="article-description">
+                                Description de l'action 1, expliquant les objectifs et les résultats attendus.
+                            </p>
+                            <p class="publication-date">
+                                Publié le 27 octobre 2024
+                            </p>
+                            <span class="arrow-icon">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M5 12h14M12 5l7 7-7 7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                    </span>
+                        </div>
+                    </a>
+                </div>
+                <!-- Ajoutez d'autres articles en anglais ici -->
+        </div>
+        </section>
+        </div>
+        <section class="full-width-section">
+            <div class="content">
+                <h2>Nos Objectifs</h2>
+                <ul>
+                    <li>Analyser les dynamiques d’influence de l’information sur les comportements individuels et collectifs.</li>
+                    <li>Sensibiliser les jeunes et le grand public à la lecture critique de l’information.</li>
+                    <li>Documenter, partager, et approfondir des travaux de recherche.</li>
+                </ul>
+                <h2>Nos Pôles d’Activités</h2>
+                <ul>
+                    <li><strong>Pôle Sensibilisation et Éducation</strong> : Description des ateliers de sensibilisation</li>
+                    <li><strong>Pôle Recherche et Documentation</strong> : Explication de la partie recherche (publications, analyse de contenus, rédaction d’articles et tribunes sur des sujets d’actualité).</li>
+                    <li><strong>Pôle Communication </strong>: Activités de communication, comme les comptes sociaux sur Twitter, LinkedIn, et le site web pour diffuser les articles et les missions.</li>
+                    <li><strong>Pôle Publications et Critiques Culturelles</strong> : Publication de critiques culturelles et des travaux documentés.</li>
+                </ul>
+            </div>
+        </section>
+    </main>
+    <footer id="footer">
+        <div class="subscription-container">
+            <div class="subscription-section">
+                <!-- Bloc gauche : Abonnement à la newsletter -->
+                <div class="left-content">
+                    <h2>Abonnez-vous à notre lettre d’information</h2>
+                    <p>Vous décidez des envois que vous voulez recevoir… Ou arrêter. Votre adresse email ne sera bien sûr jamais partagée ou revendue à des tiers.</p>
+                    <button class="subscribe-button">S'abonner
+                    </button>
+                </div>
+                <!-- Bloc droit : Suivez-nous sur les réseaux sociaux -->
+                <div class="right-content">
+                    <h2>Suivez-nous sur les réseaux sociaux</h2>
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://www.facebook.com" target="_blank" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+                        <a href="https://www.instagram.com" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.youtube.com" target="_blank" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="fixed-img"></div>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Nous connaître</h3>
+                <ul>
+                    <!--
+    <li><p></p></li>
+    -->
+                    <li><a href="#" id="email-link">L'association</a></li>
+                    <li><a href="#" id="email-link">Nos membres</a></li>
+                    <li><a href="#" id="email-link">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>
+    Nos actions
+</h3>
+                <ul>
+                    <li><a href="https://www.linkedin.com/in/gael-maignan/">Sensibilisation</a></li>
+                    <li><a href="#">Calendrier</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>
+    Documentation
+</h3>
+                <ul>
+                    <li><a href="https://www.linkedin.com/in/gael-maignan/">Articles</a></li>
+                    <li><a href="#" id="email-link">Critiques</a></li>
+                    <li><a href="#" id="email-link">Témoignages</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>
+    Liens
+</h3>
+                <ul>
+                    <li><a href="#">Accueil</a></li>
+                    <li><a href="#">Conditions d'Utilisation</a></li>
+                </ul>
+            </div>
+            <div id="about" class="footer-bottom">
+                <div class="text-container">
+                    <h1>Observatoire de l'Esprit Critique</h1>
+                    <p>
+                        "Explorer, Comprendre, Transmettre l’Esprit Critique dans la Société Contemporaine"
+                    </p>
+                </div>
+                <p>
+                    &copy; 2024 L'Observatoire de l'Esprit Critique.
+                    <br> Sauf mention contraire, tous les contenus de ce site sont sous licence
+                    <a href="https://creativecommons.org/licenses/by/4.0/deed.fr" target="_blank" class="license-link">Creative Commons Attribution 4.0 International (CC BY 4.0).</a> .
+                </p>
+            </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
