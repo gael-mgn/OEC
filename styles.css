@@ -3,13 +3,23 @@
     height: 175px;
     object-fit: cover;
 }
-
+.mobile{
+    display: none;
+}
 @media (max-width: 768px) {
     .articles{
     padding-top: 0;
 }
     .bannere{
     display: none;
+}
+.see-all-content{
+    display: none;
+        margin: auto;
+
+}
+.mobile{
+    display: flex;
 }
 }
 
