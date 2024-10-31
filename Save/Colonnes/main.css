@@ -182,17 +182,6 @@ section {
     width: 100%;
     height: auto;
     display: block;
-    object-fit: cover;
-}
-
-.sub-article img{
-    max-height: 200px;
-}
-
-@media (max-width: 768px) {
-.sub-article img{
-    max-height: 100vh;
-}
 }
 
 .article-info {
