@@ -40,7 +40,7 @@ header {
         
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1200px) {
     .title{
         padding: 15px;
     }
@@ -63,7 +63,7 @@ header {
 .full-width-section{
     background-color: #fff;
 }
-@media (max-width: 768px) {
+@media (max-width: 1200px) {
     .content{
         width: 90%;
         margin: auto;
@@ -83,7 +83,7 @@ header {
     display: none;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1200px) {
 
     .text-container h1 {
         font-size: 20px;
@@ -192,7 +192,7 @@ section {
     max-height: 200px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1200px) {
 .sub-article img{
     max-height: 100vh;
 }
@@ -246,7 +246,7 @@ section {
 
 
 
-@media (max-width: 768px) {
+@media (max-width: 1200px) {
     /* Passer à une seule colonne pour la grille de contenu */
 
 
@@ -287,7 +287,7 @@ section {
 }
 
 
-@media (max-width: 768px) {
+@media (max-width: 1200px) {
     .article-info {
         padding: 10px; /*permet de faciliter la lecture*/
     }
@@ -296,7 +296,7 @@ section {
 
 
 
-@media (max-width: 768px) {
+@media (max-width: 1200px) {
 
 
     /* Menu vertical en mode responsive */
@@ -421,7 +421,7 @@ footer {
     justify-content: space-around;
     padding-top: 20px;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1200px) {
   footer {
     font-size: 12px;
   }
@@ -557,7 +557,7 @@ margin-bottom: 0px;
 
 
 /* Styles pour les petits écrans */
-@media (max-width: 768px) {
+@media (max-width: 1200px) {
     .subscription-section {
         flex-direction: column; /* Empile les colonnes */
     }
