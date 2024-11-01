@@ -4,14 +4,15 @@
 /* Importation de la police Gotham (si disponible) */
 @font-face {
     font-family: 'Gotham';
-    src: url('fonts/Gotham-Book.otf') format('opentype');
+    /*src: url('fonts/Gotham-Book.otf') format('opentype');*/
 }
 html {
   scroll-behavior: smooth;
 }
 body {
     scroll-behavior: smooth;
-    font-family: 'Gotham', 'Montserrat', sans-serif; /* Changez 'Gotham' par le nom exact si nécessaire */
+    /*font-family: 'Gotham', 'Montserrat', sans-serif;*/ /* Changez 'Gotham' par le nom exact si nécessaire */
+    font-family: 'Montserrat', sans-serif; /* Changez 'Gotham' par le nom exact si nécessaire */
     margin: 0;
     padding: 0;
     background-color: #f4f4f4;

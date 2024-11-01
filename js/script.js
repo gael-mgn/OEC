@@ -1,3 +1,9 @@
+function openMenu(){
+    
+}
+
+
+/*
 // Sélection du menu de navigation
 const navbar = document.querySelector('.nav-menu');
 
@@ -44,3 +50,7 @@ window.addEventListener('resize', toggleSeeAllLink);
         document.querySelector('.menu-toggle').addEventListener('click', function() {
             document.querySelector('.nav-menu').classList.toggle('active');
         });
+
+
+
+        */
