@@ -38,27 +38,8 @@
     padding: 2rem;
     max-width: 800px;
     margin: auto;
-    font-size: 18px;
-}
-@media (max-width: 768px) {
-    .article  {
-        padding: 0;
-        padding-bottom: 2rem;
-        padding-top: 1rem;
-        width: 90%;
-    font-size: 16px;
-
-main ul {
-   padding-left: 20px;
-}
 }
 
-
-main ul li {
-    margin-bottom: 15px;
-    line-height: 1.6;
-}
-}
 .article h2 {
     font-size: 36px;
 }
@@ -108,13 +89,10 @@ main ul li {
 .article-content p {
     margin-bottom: 1rem;
     color: rgb(58, 58, 58);
+    font-size: 18px;
 }
-
 .article-content a {
-font-size: inherit;
-}
-.article-content .subscribe-button {
-    font-size: 14px;
+font-size: 18px;
 }
 .article-content a:hover {
     text-decoration: underline;
