@@ -116,14 +116,6 @@ display: flex;
 }
 
 
-
-
-
-.article-info2{
-    padding: 10px;
-    background-color: #fff;
-}
-
 /* Media Query pour écrans mobiles */
 @media (max-width: 768px) {
   .articles {
@@ -135,12 +127,9 @@ display: flex;
 }
 
 
-.conteneur3{
-    background-color: red;
-}
 
 /* Styles pour la section pleine largeur avec l'image */
-.full-width-section2 {
+.overlay-section {
     width: 100%;
     height: 330px;
     overflow: hidden;
@@ -153,7 +142,7 @@ display: flex;
     text-decoration: underline;
 }
 
-.full-width-section2 img {
+.overlay-section img {
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -195,7 +184,7 @@ display: flex;
     .overlay {
         width: 90%;
     }
- .full-width-section2 img {
+ .overlay-section img {
     display: none;
     }   
 }
