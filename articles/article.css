@@ -103,6 +103,7 @@ main ul li {
 
 .article-content {
     line-height: 1.6;
+    margin-bottom: 90px;
 }
 
 .article-content p {
@@ -116,7 +117,7 @@ font-size: inherit;
 .article-content .subscribe-button {
     font-size: 14px;
 }
-.article-content a:hover {
+.article-content p a:hover {
     text-decoration: underline;
 }
 
