@@ -33,6 +33,8 @@ header {
 
 .title {
     max-width: 1100px;
+    width: 90%;
+    max-width: 1100px;
     margin: auto;
 
     display: flex;
@@ -59,6 +61,7 @@ header {
 
 .content{
     max-width: 1100px;
+    width: 90%;
     margin: auto;
 }
 .full-width-section{
@@ -173,6 +176,8 @@ section {
 
 /* Limitation de la largeur du contenu */
 .conteneur {
+    max-width: 1100px;
+    width: 90%;
     max-width: 1100px;
     margin: 0 auto;
 }
@@ -455,6 +460,8 @@ footer {
     display: flex;
     flex-wrap: wrap;
     max-width: 1100px;
+    width: 90%;
+    max-width: 1100px;
     margin: auto;
     justify-content: space-around;
     padding-top: 20px;
@@ -550,6 +557,8 @@ margin-bottom: 0px;
 
 .subscription-section {
     display: flex;
+    max-width: 1100px;
+    width: 90%;
     max-width: 1100px;
     margin: auto;
     padding: 20px;

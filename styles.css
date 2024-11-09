@@ -50,12 +50,30 @@
 
 
 
+
 .container {
+    width: 90%;
     max-width: 1100px;
-    margin: auto;
+
     display: flex;
     justify-content: space-between;
+    margin: auto;
 }
+
+.column {
+    width: 48%;
+}
+
+@media (max-width: 768px) {
+    .container {
+    max-width: 90vw;
+}
+}
+
+
+
+
+
 
 .column {
     width: 48%;
