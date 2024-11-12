@@ -247,7 +247,6 @@ section {
     display: flex;
     background-color: #fff;
     transition: transform 0.3s, box-shadow 0.3s;
-    background-color: red;
 }
 
 
@@ -467,9 +466,7 @@ footer {
     padding-top: 20px;
 }
 @media screen and (max-width: 768px) {
-  footer {
-    font-size: 12px;
-  }
+  
   .footer-content {
     display: block;
     margin-bottom: 30px;
