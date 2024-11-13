@@ -45,26 +45,31 @@
     background-color: rgb(193, 193, 253);
 }
 .veille{
+    background-color: transparent;
             position: relative; /* Important pour la position de l'image */
             overflow: hidden; /* Empêche l'image de déborder */
-}
-.veille .background {
-    position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            object-fit: cover; /* Cette propriété permet de faire en sorte que l'image couvre toute la div */
-            z-index: 0; /* Place l'image derrière le contenu de la div */
 }
 
 .veille .article-horizontal {
         position: relative;
 }
 .veille .content {
-    max-width: 600px;
+    max-width: 400px;
 }
 
+.veille2 {
+padding-top: 0px;
+    background-color: inherit;
+}
+@media (max-width: 768px) {
+.veille2 h2 {
+    width: 90%;
+    margin: auto;
+    padding-bottom: 20px;
+}}
+.veille2 .content{
+    width: 100%;
+}
 
 .container {
     width: 90%;
@@ -265,3 +270,34 @@ display: flex;
     line-height: 1.6;
 }
 
+
+
+
+
+.highlight {
+  display: flex; /* Disposition flexible par défaut */
+  width: 100%;
+  margin: auto;
+  padding: 0;
+
+}
+
+.left, .right {
+  flex: 1; /* Chaque div occupe une moitié de l'espace */
+  background-size: cover; /* Couvre toute la div avec l'image */
+  background-position: center;
+
+}
+
+
+/* Media Query pour les petits écrans */
+@media (max-width: 768px) {
+  .highlight {
+    flex-direction: column; /* Les div passent en colonne (l'une sous l'autre) */
+  }
+
+  .left, .right {
+    flex: none; /* Chaque div prend toute la largeur */
+    width: 100%; /* Prendre 100% de la largeur du conteneur */
+  }
+}
