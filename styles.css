@@ -48,18 +48,18 @@
     background-color: transparent;
             position: relative; /* Important pour la position de l'image */
             overflow: hidden; /* Empêche l'image de déborder */
+
 }
 
-.veille .article-horizontal {
-        position: relative;
-}
+
 .veille .content {
     max-width: 75%;
-    place-items: center;
+
 }
 
 .veille2 {
-    padding-bottom: 0;
+    background-color: inherit;
+    padding-top: 0;
 }
 @media (max-width: 768px) {
 .veille2 h2 {
@@ -278,10 +278,11 @@ display: flex;
 
 .highlight {
   display: flex; /* Disposition flexible par défaut */
+  gap: 10px;
   width: 100%;
   margin: auto;
   padding: 0;
-
+  margin-bottom: 10px;
 }
 
 .left, .right {
@@ -296,6 +297,9 @@ display: flex;
 @media (max-width: 768px) {
   .highlight {
     flex-direction: column; /* Les div passent en colonne (l'une sous l'autre) */
+    /*gap: 0px;
+    margin-bottom: 0px;
+    */
   }
 
   .left, .right {
