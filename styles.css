@@ -59,15 +59,16 @@
 }
 
 .veille2 {
-padding-top: 0px;
-    background-color: inherit;
+    padding-bottom: 0;
 }
 @media (max-width: 768px) {
 .veille2 h2 {
     width: 90%;
     margin: auto;
     padding-bottom: 20px;
-}}
+}
+
+}
 .veille2 .content{
     width: 100%;
 }
