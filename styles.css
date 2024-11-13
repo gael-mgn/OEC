@@ -61,8 +61,11 @@
     background-color: inherit;
     padding-top: 0;
 }
+.veille2 .info {
+    margin-bottom: 40px;
+}
 @media (max-width: 768px) {
-.veille2 h2 {
+.veille2 .info {
     width: 90%;
     margin: auto;
     padding-bottom: 20px;
@@ -297,9 +300,10 @@ display: flex;
 @media (max-width: 768px) {
   .highlight {
     flex-direction: column; /* Les div passent en colonne (l'une sous l'autre) */
-    /*gap: 0px;
+    
+
+    gap: 0px;
     margin-bottom: 0px;
-    */
   }
 
   .left, .right {
