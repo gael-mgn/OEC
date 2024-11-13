@@ -209,7 +209,7 @@ section {
 }
 
 .sub-article img{
-    max-height: 200px;
+    /*max-height: 200px;*/
 }
 
 @media (max-width: 768px) {

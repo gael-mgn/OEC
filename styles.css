@@ -10,9 +10,7 @@
     .articles{
     padding-top: 0;
 }
-    .bannere{
-    display: none;
-}
+    
 .see-all-content{
     display: none;
         margin: auto;
@@ -199,12 +197,36 @@ display: flex;
     /*justify-content: center;*/
 }
 @media (max-width: 768px) {
-    .overlay {
-        width: 90%;
-    }
- .overlay-section img {
-    display: none;
+
+/*
+    .overlay-section, .overlay-container {
+        width: 100%;
     }   
+    .overlay{
+        width: 90%;
+        margin: auto;
+    }
+*/
+
+    .overlay-section {
+  position: relative;
+  height: 500px;
+}
+/* Conteneur de l'overlay */
+.overlay-container {
+  position: relative; /* Position relative pour contrôler l'overlay */
+  z-index: 10; /* Pour que l'overlay soit au-dessus de l'image */
+
+}
+.overlay{
+    height: 325px;
+}
+
+
+
+    /*<section class="overlay-section">
+                <div class="overlay-container">
+                    <div class="overlay">*/
 }
 
 /* Styles des titres et paragraphes dans la zone rectangulaire */
@@ -225,3 +247,4 @@ display: flex;
     font-size: 16px;
     line-height: 1.6;
 }
+
