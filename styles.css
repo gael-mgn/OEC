@@ -65,6 +65,9 @@
     margin-bottom: 40px;
 }
 @media (max-width: 768px) {
+.veille2{
+    padding-bottom: 0;
+}
 .veille2 .info {
     width: 90%;
     margin: auto;
