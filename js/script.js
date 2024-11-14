@@ -2,6 +2,16 @@ function openMenu(){
     
 }
 
+window.addEventListener('scroll', function() {
+  const scrollPosition = window.pageYOffset;
+  document.querySelector('.left').style.backgroundPositionY = -(scrollPosition * 0.5) + 'px';
+
+  const scrollPosition = window.pageYOffset; // Récupère la position de défilement de la page
+  const image = document.querySelector('.parallax-image'); // Sélectionne l'image
+
+  // Modifie la position verticale de l'image pour créer un effet de parallaxe
+  image.style.transform = 'translateY(' + scrollPosition * 0.5 + 'px)';
+});
 
 /*
 // Sélection du menu de navigation
