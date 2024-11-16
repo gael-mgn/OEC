@@ -715,3 +715,10 @@ margin: 0;
 }
 
 
+
+
+.articles-list {
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+}

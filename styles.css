@@ -151,6 +151,9 @@ display: flex;
     gap: 1rem; /* Espace entre les articles dans chaque colonne */
 }
 
+
+
+
 @media (max-width: 768px) {
     .container {
         flex-direction: column; /* Les colonnes passent en mode colonne */
@@ -316,3 +319,4 @@ display: flex;
     width: 100%; /* Prendre 100% de la largeur du conteneur */
   }
 }
+
