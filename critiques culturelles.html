@@ -1,5 +1,174 @@
 <!DOCTYPE html>
 <html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="L’Observatoire de l’Esprit Critique (OEC) est une association dédiée à la promotion de l’esprit critique, la sensibilisation à l'analyse de l'information, et la lutte contre la désinformation. Découvrez nos initiatives, publications et ateliers pour développer les compétences critiques face aux enjeux actuels.">
+        <meta name="keywords" content="pensée critique, éducation citoyenne, esprit critique, association, publications">
+        <meta name="author" content="Gaël Maignan">
+        <meta name="robots" content="index, follow">
+        <title>Observatoire de l'Esprit Critique - Critiques Culturelles</title>
+        <link rel="stylesheet" href="main.css">
+        <link rel="stylesheet" href="articles.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+        <link rel="icon" href="https://observatoire-esprit-critique.fr/img/logo.png" type="image/x-icon">
+        <meta property="og:title" content="Observatoire de l'Esprit Critique - Critiques Culturelles"/>
+        <meta property="og:description" content="Le volet Critique Culturelle de l’OEC offre un espace dédié à l’analyse et à l’expression personnelle autour des productions culturelles contemporaines et classiques. En abordant des œuvres littéraires, cinématographiques, théâtrales, artistiques, et autres.">
+        <meta property="og:image" content="https://observatoire-esprit-critique.fr/img/cover.webp"/>
+        <meta property="og:url" content="https://observatoire-esprit-critique.fr"/>
+        <script src="js/script.js"></script>
+        <script src="js/articles.js"></script>
+    </head>
+    <body>
+        <!-- Header avec le menu responsive -->
+        <header class="site-header">
+            <div class="mobile-nav">
+                <a href="index.html"><img src="img/logo.png" alt="OEC"></a>
+                <div class="hamburger" onclick="openMenu()">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
+            </div>
+            <a href="index.html" class="title">
+                <div class="text-container">
+                    <h1>Observatoire de l'Esprit Critique</h1>
+                    <p>
+                        Explorer, Comprendre, Transmettre l’Esprit Critique dans la Société Contemporaine
+                    </p>
+                </div>
+            </a>
+            <nav class="nav-menu">
+                <ul>
+                    <li><a href="index.html">Accueil</a></li>
+                    <li><a href="nos%20actions.html">Nos actions</a></li>
+                    <li><a href="tous%20les%20contenus.html">Publications</a></li>
+                    <li><a href="articles/about/about.html">À propos</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <section class="full-width-section articles-grid">
+                <div class="content">
+                    <h2>Regards sur la Culture</h2>
+
+                    <p>Cette section offre des perspectives réfléchies sur les livres, films, expositions, pièces de théâtre, et autres formes artistiques. À travers des critiques approfondies, nous invitons à découvrir, à débattre et à enrichir notre compréhension des phénomènes culturels et artistiques qui nous entourent.</p>
+
+                    <div class="container">
+                        <div class="column" id="columnID1"></div>
+                        <div class="column" id="columnID2"></div>
+                        <script>
+                            fillColumn("critique", "columnID");
+                        </script>
+                    </div>
+                    <div class="mobile-container">
+                        <div class="grid" id="mobile-column"></div>
+                        <script>
+                            fillSection("critique", "mobile-column");
+                        </script>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer id="footer">
+            <section class="full-width-section join">
+                <div class="content">
+                    <h2>Nous Rejoindre : Devenez Acteur de la Pensée Critique !</h2>
+                    <p>
+                        Vous partagez notre vision d’une société plus éclairée et informée ? Nos actions vous parlent et vous aimeriez contribuer activement ? Rejoignez notre équipe et participez à la promotion de l’esprit critique, de la recherche, et de la sensibilisation auprès du public.
+                        <br>
+                        <br>
+                    </p>
+                    <a href="https://observatoire-esprit-critique.fr/articles/about/about.html#join" class="btn-discover discover-bottom">En savoir plus</a>
+                </div>
+            </section>
+            <div class="subscription-container">
+                <div class="subscription-section">
+                    <!-- Bloc gauche : Abonnement à la newsletter -->
+                    <div class="left-content">
+                        <h2>Abonnez-vous à notre lettre d’information</h2>
+                        <p>
+                            Vous décidez des envois que vous voulez recevoir… Ou arrêter. Votre adresse email ne sera bien sûr jamais partagée ou revendue à des tiers.
+                        </p>
+                        <button class="subscribe-button">S'abonner</button>
+                    </div>
+                    <!-- Bloc droit : Suivez-nous sur les réseaux sociaux -->
+                    <div class="right-content">
+                        <h2>Suivez-nous sur les réseaux sociaux</h2>
+                        <div class="social-icons">
+                            <a href="https://www.linkedin.com/company/oec-org" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                            <a href="https://www.facebook.com" target="_blank" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+                            <a href="https://www.instagram.com" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                            <a href="https://www.youtube.com" target="_blank" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="fixed-img"></div>
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Nous connaître</h3>
+                    <ul>
+                        <li><a href="https://observatoire-esprit-critique.fr/articles/about/about.html">L'association</a></li>
+                        <li><a href="https://observatoire-esprit-critique.fr/articles/about/about.html#membres">Nos membres</a></li>
+                        <li><a href="https://observatoire-esprit-critique.fr/articles/about/about.html#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Nos actions</h3>
+                    <ul>
+                        <li><a href="https://observatoire-esprit-critique.fr/articles/sensibilisation/sensibilisation.html">Sensibilisation</a></li>
+                        <li><a href="https://observatoire-esprit-critique.fr/nos actions.html">Toutes nos actions</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Documentation</h3>
+                    <ul>
+                        <li><a href="https://observatoire-esprit-critique.fr/tous les contenus.html">Articles</a></li>
+                        <li><a href="https://observatoire-esprit-critique.fr/analyses et recherches.html">Recherche</a></li>
+                        <li><a href="https://observatoire-esprit-critique.fr/critiques culturelles.html">Critiques culturelles</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Liens</h3>
+                    <ul>
+                        <li><a href="https://observatoire-esprit-critique.fr">Accueil</a></li>
+                        <li><a href="https://creativecommons.org/licenses/by/4.0/deed.fr">Conditions d'Utilisation</a></li>
+                    </ul>
+                </div>
+                <div id="about" class="footer-bottom">
+                    <div class="text-container">
+                        <h1>Observatoire de l'Esprit Critique</h1>
+                        <p>
+                            Explorer, Comprendre, Transmettre l’Esprit Critique dans la Société Contemporaine
+                        </p>
+                    </div>
+                    <p>
+                        &copy; 2024 Observatoire de l'Esprit Critique.
+                        <br>
+                         Sauf mention contraire, tous les contenus de ce site sont sous licence
+                        <a href="https://creativecommons.org/licenses/by/4.0/deed.fr" target="_blank" class="license-link">Creative Commons Attribution 4.0 International (CC BY 4.0).</a>
+                    </p>
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="fr">
 
 <head>
     <meta charset="UTF-8">
@@ -8,7 +177,7 @@
     <meta name="keywords" content="pensée critique, éducation citoyenne, esprit critique, association, publications">
     <meta name="author" content="Gaël Maignan">
     <meta name="robots" content="index, follow">
-    <title>Observatoire de l'Esprit Critique - Fil d'actualité</title>
+    <title>Observatoire de l'Esprit Critique - Critiques Cultutrelles</title>
     <link rel="stylesheet" href="main.css">
     <link rel="stylesheet" href="articles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">

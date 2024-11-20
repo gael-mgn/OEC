@@ -12,7 +12,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     for (var i = 0; i < articles.length; i++) {
         const author = articles[i];
-        if (i < 2){
+        if (i < 3){
             a_la_une_container.innerHTML += addArticle(author, "featured-article");
         }
         else if (author.categories.includes("action") && actions < 2) {

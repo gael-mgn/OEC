@@ -144,15 +144,6 @@ display: flex;
   /* Espace vertical entre les articles */
 }
 
-.column2 {
-    flex: 1; /* Permet à chaque colonne de prendre la même largeur */
-    display: flex;
-    flex-direction: column;
-    gap: 1rem; /* Espace entre les articles dans chaque colonne */
-}
-
-
-
 
 @media (max-width: 768px) {
     .container {
@@ -232,35 +223,28 @@ display: flex;
 }
 @media (max-width: 768px) {
 
-/*
-    .overlay-section, .overlay-container {
-        width: 100%;
-    }   
-    .overlay{
-        width: 90%;
-        margin: auto;
-    }
-*/
-
     .overlay-section {
   position: relative;
   height: 500px;
-}
-/* Conteneur de l'overlay */
-.overlay-container {
-  position: relative; /* Position relative pour contrôler l'overlay */
-  z-index: 10; /* Pour que l'overlay soit au-dessus de l'image */
+  width: 100%;
 
+}
+
+.overlay-container {
+  position: relative;
+  z-index: 10;
+  width: 100%;
+  background-color: rgb(47, 64, 119);
+    padding-top: 20px;
 }
 .overlay{
+    position: relative;
     height: 325px;
+    
+    margin: auto;
 }
 
 
-
-    /*<section class="overlay-section">
-                <div class="overlay-container">
-                    <div class="overlay">*/
 }
 
 /* Styles des titres et paragraphes dans la zone rectangulaire */

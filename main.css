@@ -27,8 +27,11 @@ body {
 
 /* Style pour le header */
 header {
+    position: relative;
     padding-top: 20px;
+    background-color: white;
 }
+
 
 
 .title {

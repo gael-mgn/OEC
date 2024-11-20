@@ -1,4 +1,14 @@
 const articles = [
+    /*
+    {
+        img: "NULL",
+        link: "articles/comment vérifier une information en 7 étapes/comment vérifier une information en 7 étapes.html",
+        title: "Comment Vérifier une Information en 7 Étapes",
+        description: "Dans un monde où l'information circule à grande vitesse, il est crucial de savoir distinguer le vrai du faux. Cette fiche méthodologique vous propose une approche structurée en 7 étapes pour vérifier efficacement une information.",
+        date: "22 novembre 2024",
+        categories: ["action"],
+        alt: "illustration de l'article"
+    },*/
     {
         img: "articles/comprendre la chaîne de propagation d'une fake news/1.jpeg",
         link: "articles/comprendre la chaîne de propagation d'une fake news/comprendre la chaîne de propagation d'une fake news.html",
@@ -92,9 +102,27 @@ function fillSection(category, id, n=-1, additionalPath = "") {
     let i2 = 0;
     for (var i = 0; i < articles.length; i++) {
         const article = articles[i];
-        if (article.categories.includes(category) && (n==-1 || i2 < n)) {
+        if ((article.categories.includes(category) || category == "") && (n==-1 || i2 < n)) {
             i2+=1
             container.innerHTML += addArticle(article, "article-horizontal", additionalPath);
+        }
+    }
+}
+
+function fillColumn(category, id, n=-1, additionalPath = "") {
+    const container1 = document.getElementById(id + "1");
+    const container2 = document.getElementById(id + "2");
+    let i2 = 0;
+    for (var i = 0; i < articles.length; i++) {
+        const article = articles[i];
+        if ((article.categories.includes(category) || category == "") && (n==-1 || i2 < n)) {
+            if (i2%2 == 0){
+                 container1.innerHTML += addArticle(article, "featured-article", additionalPath);
+            }
+            else {
+                container2.innerHTML += addArticle(article, "article-horizontal", additionalPath);
+            }
+            i2+=1;
         }
     }
 }
