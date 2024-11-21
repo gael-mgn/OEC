@@ -144,6 +144,15 @@ display: flex;
   /* Espace vertical entre les articles */
 }
 
+.column2 {
+    flex: 1; /* Permet à chaque colonne de prendre la même largeur */
+    display: flex;
+    flex-direction: column;
+    gap: 1rem; /* Espace entre les articles dans chaque colonne */
+}
+
+
+
 
 @media (max-width: 768px) {
     .container {
@@ -220,6 +229,7 @@ display: flex;
     display: flex;
     flex-direction: column;
     /*justify-content: center;*/
+
 }
 @media (max-width: 768px) {
 
@@ -235,13 +245,15 @@ display: flex;
   z-index: 10;
   width: 100%;
   background-color: rgb(47, 64, 119);
-    padding-top: 20px;
+
+
 }
 .overlay{
     position: relative;
     height: 325px;
-    
+    width: 90%;
     margin: auto;
+    padding-bottom: 50px;
 }
 
 
