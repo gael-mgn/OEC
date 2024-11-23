@@ -399,7 +399,6 @@ a {
     display: inline-flex;
     align-items: center;
     color: #000091; /* Couleur du texte */
-    position: relative; /* Nécessaire pour le pseudo-élément */
 }
 
 .see-all-content .text {
