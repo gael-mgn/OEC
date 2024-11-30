@@ -2,11 +2,11 @@ const articles = [
     /*
     {
         img: "NULL",
-        link: "articles/comment vérifier une information en 7 étapes/comment vérifier une information en 7 étapes.html",
-        title: "Comment Vérifier une Information en 7 Étapes",
-        description: "Dans un monde où l'information circule à grande vitesse, il est crucial de savoir distinguer le vrai du faux. Cette fiche méthodologique vous propose une approche structurée en 7 étapes pour vérifier efficacement une information.",
-        date: "22 novembre 2024",
-        categories: ["action"],
+        link: "articles/le rôle des médias dans la promotion des problèmes publics/le rôle des médias dans la promotion des problèmes publics.html",
+        title: "Le rôle des médias dans la promotion des problèmes publics",
+        description: "Nous nous intéresserons au rôle central que jouent les médias dans la mise en lumière des problèmes publics, influençant l'opinion et les décisions politiques en orientant l’attention sur des enjeux spécifiques.",
+        date: "28 novembre 2024",
+        categories: ["recherche_analyse"],
         alt: "illustration de l'article"
     },*/
     {
@@ -34,6 +34,14 @@ const articles = [
         description: "Les biais cognitifs sont des raccourcis mentaux qui influencent notre jugement de manière inconsciente. Ils sont souvent nécessaires pour traiter l'information rapidement, mais peuvent aussi nous conduire à des erreurs de raisonnement et à des conclusions fausses.",
         date: "28 octobre 2024",
         categories: ["recherche_analyse"],
+    },
+     {
+        img: "articles/guide pratique pour détecter les images générées par l'IA/img.jpg",
+        link: "articles/guide pratique pour détecter les images générées par l'IA/guide pratique pour détecter les images générées par l'IA.html",
+        title: "Guide Pratique pour Détecter les Images Générées par l'IA",
+        description: "Ce guide pratique vous aide à repérer facilement les images générées par l'IA, en analysant les détails visuels, contextuels et techniques pour lutter contre la désinformation.",
+        date: "29 novembre 2024",
+        categories: ["action"],
     },
     {
         img: "NULL",
