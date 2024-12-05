@@ -1,5 +1,15 @@
+let openedMenu = false;
+
 function openMenu(){
-    
+    if (openedMenu){
+        openedMenu = false;
+        document.getElementById("nav-menu-id").style.display = "none";
+    }
+    else {
+        openedMenu = true;
+        document.getElementById("nav-menu-id").style.display = "flex";
+    }
+
 }
 
 function f1(){
