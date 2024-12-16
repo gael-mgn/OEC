@@ -754,3 +754,10 @@ margin: 0;
     display: flex;
     flex-direction: column;
 }
+
+@media (min-width: 1024px) {
+  article p {
+    text-align: justify;
+    line-height: 1.6; /* Pour améliorer la lisibilité */
+  }
+}
