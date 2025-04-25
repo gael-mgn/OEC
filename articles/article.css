@@ -5,7 +5,23 @@
     flex-wrap: wrap;
     margin-bottom: 20px;
 }
+.illustration {
+  text-align: center; /* centre tout le contenu à l'intérieur */
+  padding: 20px;
+}
 
+.illustration img {
+  max-width: 100%;     /* rend l'image responsive */
+  height: auto;
+  display: inline-block;
+}
+
+.illustration .description {
+  margin-top: 5px;
+  font-size: 16px;
+  color: #555;
+  text-align: center;
+}
 .category-button {
     background-color: rgb(227, 227, 253);
     color: rgb(0, 0, 145);
