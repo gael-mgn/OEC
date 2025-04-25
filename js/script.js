@@ -16,6 +16,12 @@ function f1(){
     console.log("eeeeee");
 }
 
+window.addEventListener('scroll', () => {
+  if (window.innerWidth <= 768) {
+    openedMenu = false;
+        document.getElementById("nav-menu-id").style.display = "none";
+}
+});
 
 
 
