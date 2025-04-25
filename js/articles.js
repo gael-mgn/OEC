@@ -4,7 +4,7 @@ const articles = [
         link: "articles/intersectionnalité penser les oppressions de manière critique/intersectionnalité penser les oppressions de manière critique.html",
         title: "Intersectionnalité : penser les oppressions de manière critique",
         description: "L’intersectionnalité, qui se définit comme la « prise en compte du cumul de plusieurs facteurs d’inégalité ou de discrimination, généralement l’assignation à une origine raciale ou ethnique supposée, l’identité sexuelle et le milieu social », est un concept clé du féminisme contemporain. ",
-        date: "2 mai 2025",
+        date: "2 mai 2025 | Astrid Lavit d'Hautefort",
         categories: ["critique"],
         alt: "illustration de l'article"
     },
@@ -13,7 +13,7 @@ const articles = [
         link: "articles/arts et féminisme focus sur les guerilla girls/arts et féminisme focus sur les guerilla girls.html",
         title: "Arts et féminisme : focus sur les Guerilla Girls",
         description: "Les Guerilla Girls sont un groupe d’artistes féministes fondé à New York en 1985. Elles sont connues pour leur création et diffusion d’affiches afin de combattre le sexisme et le racisme dans les arts. Leurs masques de gorilles, signatures du groupe, leur permettent de garder l’anonymat.",
-        date: "25 avril 2025",
+        date: "25 avril 2025 | Astrid Lavit d'Hautefort",
         categories: ["critique"],
         alt: "illustration de l'article"
     },
@@ -22,7 +22,7 @@ const articles = [
         link: "articles/la critique féministe/la critique féministe.html",
         title: "La critique féministe, quesaco ?",
         description: "Cette rubrique se veut un espace dédié aux pensées du courant féministe. En son sein, nous explorerons le lien historique entre féminisme et exercice de l’esprit critique, ainsi que la diversité des courants internes au féminisme.",
-        date: "15 avril 2025",
+        date: "15 avril 2025 | Astrid Lavit d'Hautefort",
         categories: ["critique"],
         alt: "illustration de l'article"
     },
