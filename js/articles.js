@@ -1,9 +1,17 @@
 const articles = [
     {
+        img: "NULL",
+        link: "articles/la médecine, une science neutre/la médecine, une science neutre.html",
+        title: "La Médecine, une Science neutre ?",
+        description: "Les sciences médicales n’ont que très récemment commencé à considérer l’importance du genre. En effet, la médecine moderne s’est longtemps basée sur le corps masculin comme norme : les essais cliniques, les protocoles et les diagnostics ont souvent exclu les femmes. De ce fait, la production des connaissances scientifiques, de même que leur application clinique, ont conduit à des inégalités entre les hommes et les femmes.",
+        date: "6 juin 2025 | Eunice Djunga",
+        categories: ["critique"],
+    },
+    {
         img: "articles/intersectionnalité penser les oppressions de manière critique/image1.png",
         link: "articles/intersectionnalité penser les oppressions de manière critique/intersectionnalité penser les oppressions de manière critique.html",
         title: "Intersectionnalité : penser les oppressions de manière critique",
-        description: "L’intersectionnalité, qui se définit comme la « prise en compte du cumul de plusieurs facteurs d’inégalité ou de discrimination, généralement l’assignation à une origine raciale ou ethnique supposée, l’identité sexuelle et le milieu social », est un concept clé du féminisme contemporain. ",
+        description: "L’intersectionnalité, qui se définit comme la « prise en compte du cumul de plusieurs facteurs d’inégalité ou de discrimination, généralement l’assignation à une origine raciale ou ethnique supposée, l’identité sexuelle et le milieu social », est un concept clé du féminisme contemporain.",
         date: "2 mai 2025 | Astrid Lavit d'Hautefort",
         categories: ["critique"],
         alt: "illustration de l'article"
