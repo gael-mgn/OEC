@@ -1,6 +1,14 @@
 const articles = [
     {
         img: "NULL",
+        link: "articles/la santé mentale comme outil néolibéral et capitaliste/la santé mentale comme outil néolibéral et capitaliste.html",
+        title: "La santé mentale comme outil néolibéral et capitaliste",
+        description: "Dans quelle mesure la santé mentale représente un instrument en faveur de la société libérale mondialisée ? Si la dimension psychique de la vie sociale apparaît désormais comme un enjeu d’ordre collectif et qui dépasse le seul caractère psychiatrique, il convient d’en observer l’appropriation et son instrumentalisation dans le cadre du système capitaliste plus global.",
+        date: "6 juillet 2025 | Eunice Djunga",
+        categories: ["critique"],
+    },
+    {
+        img: "NULL",
         link: "articles/la médecine, une science neutre/la médecine, une science neutre.html",
         title: "La Médecine, une Science neutre ?",
         description: "Les sciences médicales n’ont que très récemment commencé à considérer l’importance du genre. En effet, la médecine moderne s’est longtemps basée sur le corps masculin comme norme : les essais cliniques, les protocoles et les diagnostics ont souvent exclu les femmes. De ce fait, la production des connaissances scientifiques, de même que leur application clinique, ont conduit à des inégalités entre les hommes et les femmes.",
